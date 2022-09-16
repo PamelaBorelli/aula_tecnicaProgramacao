@@ -11,3 +11,5 @@ const facul = "Pamela"
 // document.getElementById("root").innerHTML = facul.substring(0,2).concat("T").concat(facul.substring(3))
 // document.getElementById("root").innerHTML = "Alexandre, João, Maria, Pedro".split(", ")
 console.log(facul.split(""))
+
+console.log(facul.concat(facul.substring(0,3)).concat(" ! ").concat(facul.substring(3)))
