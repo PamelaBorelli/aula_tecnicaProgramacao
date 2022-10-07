@@ -39,5 +39,5 @@ function avaliacao (pontuacao){
     return [qtQuebraRecord, piorJog]
 }
 
-
 console.log(avaliacao(pontuacao))
+
